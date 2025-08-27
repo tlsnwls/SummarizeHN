@@ -39,7 +39,7 @@ Beyond simply scraping articles, we leverage Google Gemini AI to categorize each
 - Each function runs a Selenium web driver to access the URL, and once the page is fully loaded, it extracts the article body and summarizes it using newspaper3k.
 - Finally, it outputs the URL, title, AI-analyzed category, priority score, and final summary for each article.
 
-## Dependecies
+## Dependencies
     requests
     nltk
     selenium
